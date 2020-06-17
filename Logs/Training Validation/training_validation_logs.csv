@@ -1,0 +1,15 @@
+,date,time,logs
+0,2020-06-03,11:53:20,Entered validate_train class of trainValidation
+1,2020-06-03,11:53:20,Training Data Validation has started.
+2,2020-06-03,11:53:20,Data Loading has initiated.
+3,2020-06-03,11:53:20,"Data has not loaded. An exception occured in data_loader method of trainingDataLoader class. Exception message: Error tokenizing data. C error: Expected 1 fields in line 5, saw 3
+"
+4,2020-06-03,11:53:20,Exiting the load_data method of trainingDataLoader class.
+5,2020-06-03,11:53:20,An Exception has occured in validate_train of trainValidation class. The Exception is 
+6,2020-06-03,11:53:20,Exting validate_train of trainValidation class.
+7,2020-06-03,12:08:14,Entered validate_train class of trainValidation
+8,2020-06-03,12:08:14,Training Data Validation has started.
+9,2020-06-03,12:08:14,Data Loading has initiated.
+10,2020-06-03,12:08:15,"Data has not loaded. An exception occured in data_loader method of trainingDataLoader class. Exception message: Error tokenizing data. C error: Buffer overflow caught - possible malformed input file.
+"
+11,2020-06-03,12:08:15,Exiting the load_data method of trainingDataLoader class.

@@ -1,0 +1,62 @@
+.topnav {
+  overflow: hidden;
+  background-color: #3a506b;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #223245;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #253549;
+  color: white;
+}
+
+#body_id{
+  background-color: #fefae0;
+}
+
+.textinjumbo{
+  color: #3a506b;
+}
+
+#images{
+  width: 5000px;height:200px;margin-left: 100px;
+  }
+
+.lead{
+  color: #3a506b;
+}
+
+.button {
+  display: inline-block;width: 230px;margin: 5px;padding: 20px;cursor: pointer;transition: all 0.5s;text-align: center;color: white;border: none;border-radius: 4px;background-color:#3a506b;font-size: 15px;
+  }
+
+.button span {position: relative;display: inline-block;
+
+  cursor: pointer;transition: 0.5s;
+  }
+
+.button span:after {position: absolute;top: 0;right: -20px;
+
+  content: '\00bb';transition: 0.5s;opacity: 0;
+  }
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {right: 0;
+
+  opacity: 1;
+  }

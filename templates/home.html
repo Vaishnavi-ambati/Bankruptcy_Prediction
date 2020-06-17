@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <title>Home</title>
+</head>
+
+<body id="body_id">
+
+
+
+  <!-- <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="home.html">WebSiteName</a>
+      </div>
+      <ul class="nav navbar-nav" id="bar">
+        <li><a href="bulk.html">Bulk Order Prediction</a></li>
+        <li><a href="single.html">Single Order Prediction</a></li>
+        <li><a href="retrain.html">Retrain Model</a></li>
+      </ul>
+    </div>
+  </nav> -->
+
+  <div class="topnav">
+  <a class="active">Company Name</a>
+  <a href="retrain.html">Retrain Model </a>
+  <a href="bulk.html">Bulk order Prediction </a>
+  <a href="single.html">Single order Prediction </a>
+</div>
+
+
+<br>
+<p></p>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="container">
+          <div class="textinjumbo">
+            <h1 class="display-4">Bankruptcy Prediction</h1>
+            <p class="lead">This is a simple Bankruptcy Prediction Machine Learning website with few features as input.</p>
+            <br>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="container">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-6 px-0"><img id="images" class="img-thumbnail img-fluid" src="{{url_for('static', filename='images/image4.png')}}" alt=""></div>
+              <!-- <div class="col-lg-4 col-6 px-0"><img id="images" class="img-thumbnail img-fluid" src="images/image2.jpg" alt=""></div>
+              <div class="col-lg-4 col-6 px-0"><img id="images" class="img-thumbnail img-fluid" src="images/images3.jpg" alt=""></div> -->
+              <div class="col-lg-4 col-6 px-0"><img id="images" class="img-thumbnail img-fluid" src="{{ url_for('static', filename='images/myimage1.png')}}" alt=""></div>
+              <br>
+              <p></p>
+              <br>
+              <!-- <div class="col-lg-4 col-6 px-0"><img id="images" class="img-thumbnail img-fluid" src="images/image4.jpg" alt=""></div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <p></p>
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="container">
+            <div class="row">
+              <p class="lead">Below are our services. Please click one of them to get started. </p>
+              <br>
+              <button class="button" onclick="window.location.href='retrain.html'"><span>Retrain Model </span></button>
+              <button class="button" onclick="window.location.href='bulk.html'"><span>Bulk order Prediction </span></button>
+              <button class="button" onclick="window.location.href='single.html'"><span>Single order Prediction </span></button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

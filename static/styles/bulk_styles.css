@@ -1,0 +1,41 @@
+#body_bulk{
+  background-color: #b8d5dd;
+}
+
+
+.lead{
+    margin-right: 20px;
+
+}
+
+.navbar-custom {
+            background-color: #90253a;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#single-page-header{
+  background-attachment: fixed !important;
+  background-repeat: repeat;
+  background-size: cover;
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.overlay{
+  background-color: #b9596a;
+  padding: 90px 0;
+  float: left;
+  width: 100%;
+}
+
+.title-area{
+  margin-top: 5%;
+  color: #007bba;
+}
