@@ -7,7 +7,7 @@ class validate_raw_data:
                             Description: Validates the prediction data.
                             On Failure: Raise Exception
 
-                            Written By: Murali Krishna Chintha
+                            Written By: Vaishnavi Ambati
                             Version: 1.0
                             Revisions: None
     """
@@ -25,7 +25,7 @@ class validate_raw_data:
                                 Output: True/False
                                 On Failure: Raise Exception
 
-                                Written By: Murali Krishna Chintha
+                                Written By: Vaishnavi Ambati
                                 Version: 1.0
                                 Revisions: None
         """
@@ -45,31 +45,7 @@ class validate_raw_data:
                                'Attr51', 'Attr52', 'Attr53', 'Attr54', 'Attr55', 'Attr56', 'Attr57',
                                'Attr58', 'Attr59', 'Attr60', 'Attr61', 'Attr62', 'Attr63', 'Attr64']
 
-            # checking for column data types
-            # object_column_list = ['Attr1', 'Attr2', 'Attr3', 'Attr4', 'Attr5', 'Attr6', 'Attr7', 'Attr8',
-            #             #                        'Attr9', 'Attr10', 'Attr11', 'Attr12', 'Attr14', 'Attr15', 'Attr16',
-            #             #                        'Attr17', 'Attr18', 'Attr21', 'Attr22', 'Attr24', 'Attr25', 'Attr26',
-            #             #                        'Attr27', 'Attr28', 'Attr29', 'Attr32', 'Attr33', 'Attr34', 'Attr35',
-            #             #                        'Attr36', 'Attr37', 'Attr38', 'Attr40', 'Attr41', 'Attr45', 'Attr46',
-            #             #                        'Attr47', 'Attr48', 'Attr50', 'Attr51', 'Attr52', 'Attr53', 'Attr54',
-            #             #                        'Attr57', 'Attr59', 'Attr60', 'Attr61', 'Attr63', 'Attr64']
-            #             #
-            #             # float_column_list = ['Attr13', 'Attr19', 'Attr20', 'Attr23', 'Attr30', 'Attr31', 'Attr39',
-            #             #                    'Attr42', 'Attr43', 'Attr44', 'Attr49', 'Attr55', 'Attr56', 'Attr58',
-            #             #                    'Attr62']
-            #             #
-            #             # object_columns = list(dataframe.dtypes[dataframe.dtypes == np.object].index)
-            #             # float_columns = list(dataframe.dtypes[(dataframe.dtypes == np.float64) | (dataframe.dtypes == np.int64)].index)
-            #             #
-            #             # print("object_columns: ", object_columns)
-            #             # print("float_columns: ", float_columns)
 
-            # if object_columns == object_column_list and float_columns == float_column_list:
-            #     data_type_validate = True
-            # else:
-            #     data_type_validate = False
-            #
-            # print("data_type_validate bool",data_type_validate)
 
             if columns == actual_columns:
                 self.logger.write_log(self.raw_prediction_validation_logs, 'Columns in the data are valid.')
@@ -112,7 +88,7 @@ class validate_raw_data:
                                 Output: True/False
                                 On Failure: Raise Exception
 
-                                Written By: Murali Krishna Chintha
+                                Written By: Vaishnavi Ambati
                                 Version: 1.0
                                 Revisions: None
         """

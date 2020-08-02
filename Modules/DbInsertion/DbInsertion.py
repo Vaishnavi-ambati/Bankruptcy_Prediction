@@ -11,7 +11,7 @@ class db_insertion:
                             Output: CSV file containing the logs of Validation.
                             On Failure: Raise Exception
 
-                            Written By: Murali Krishna Chintha
+                            Written By: Vaishnavi Ambati
                             Version: 1.0
                             Revisions: None
     """
@@ -27,7 +27,7 @@ class db_insertion:
                                 Output: Success or Failure message
                                 On Failure: Raise Exception
 
-                                Written By: Murali Krishna Chintha
+                                Written By: Vaishnavi Ambati
                                 Version: 1.0
                                 Revisions: None
         """
@@ -58,4 +58,4 @@ class db_insertion:
 
             return "Insertion failed. "
 
-            raise Exception
+

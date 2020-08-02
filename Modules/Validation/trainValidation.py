@@ -10,7 +10,7 @@ class train_validation:
                   Description: Validates the training data.
                   Input: None
 
-                  Written By: Murali Krishna Chintha
+                  Written By: Vaishnavi Ambati
                   Version: 1.0
                   Revisions: None
      """
@@ -32,7 +32,7 @@ class train_validation:
                      Description: Validates the training data.
                      Input: None
 
-                     Written By: Murali Krishna Chintha
+                     Written By: Vaishnavi Ambati
                      Version: 1.0
                      Revisions: None
         """
