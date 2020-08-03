@@ -50,9 +50,10 @@ The data contains 5910 instances (financial statements), 410 represents bankrupt
 
 The aim of predicting financial distress is to develop a predictive model that combines various econometric parameters which allow foreseeing the financial condition of a firm. In this project we document our observations as we explore, build, and compare, some of the widely used classification models:
 
-Random Forests
-Extreme Gradient Boosting
-Balanced Bagging
+* Random Forests
+* Extreme Gradient Boosting
+* Balanced Bagging
+
 I have chosen the Polish companies’ bankruptcy data set where synthetic features were used to reflect higher-order statistics.
  
 
