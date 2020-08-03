@@ -32,9 +32,10 @@ class db_insertion:
                                 Revisions: None
         """
         try:
-
-            connection = mysql.connector.connect(host="127.0.0.1", user="root", password="Sudeep!96",
-                                                 database="backorderDB")
+               
+            #type your password below
+            connection = mysql.connector.connect(host="127.0.0.1", user="root", password="",
+                                                 database="bankruptcyDB")
 
             cursor = connection.cursor()
 
